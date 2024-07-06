@@ -1,0 +1,36 @@
+section {
+    padding: 2em;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+}
+
+.panel {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 1em;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1em;
+}
+
+h2 {
+    color: #f8b305;
+}
+
+.about-content {
+    display: flex;
+    align-items: center; /* Align items vertically */
+}
+
+.about-image {
+    width: auto; /* Ensure image size adjusts according to its original dimensions */
+    height: auto;
+    max-width: 30%; /* Adjust maximum width as needed */
+    border-radius: 8px;
+    margin-right: 1em; /* Optional margin for spacing */
+}
+
+.about-text {
+    flex: 1; /* Take remaining space */
+}

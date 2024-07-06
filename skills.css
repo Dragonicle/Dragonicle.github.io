@@ -1,0 +1,51 @@
+#skills {
+    padding: 2em;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    margin-top: 1em;
+}
+
+.skills-panel {
+    display: flex;
+    flex-direction: column;
+}
+
+.skill {
+    margin-bottom: 1em;
+}
+
+.skill p {
+    margin: 0;
+    font-weight: bold;
+    color: #333;
+}
+
+.skill-bar {
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.skill-level {
+    height: 20px;
+    background-color: #f8b305;
+}
+
+.skill-boxes {
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+.box {
+    width: 20px;
+    height: 20px;
+    background-color: #ccc;
+    border: 1px solid #000;
+}
+
+.box.filled {
+    background-color: #4caf50;
+}

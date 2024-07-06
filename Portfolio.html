@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yan Ling's Personal Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="section.css">
+    <link rel="stylesheet" href="footer.css">
+    <style>
+        .skill-boxes {
+            display: flex;
+            gap: 5px;
+            margin-top: 5px;
+        }
+
+        .box {
+            width: 20px;
+            height: 20px;
+            background-color: #ccc;
+            border: 1px solid #000;
+        }
+
+        .box.filled {
+            background-color: #4caf50;
+        }
+
+        .panel ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .panel ul li {
+            margin-bottom: 10px;
+        }
+
+        .panel ul li a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .panel ul li a i {
+            margin-right: 8px;
+        }
+
+        .project-details {
+            margin-top: 20px;
+        }
+
+        .project-details h3 {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="background-image"></div>
+<div class="overlay"></div>
+
+<header>
+    <h1>Portfolio</h1>
+    <span class="spin" style='font-size:100px;'>&#127770;</span>
+</header>
+
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <div class="panel">
+        <div class="about-content">
+            <img src="about me pic.jpg" alt="about me pic" class="about-image">
+            <div class="about-text">
+                <p>Hi! I'm Yan Ling, a Year 2 student at UWA studying a double major in Computer Science and Cybersecurity. I just wanna drop out please. <strong>Halloween is my favourite time of the year.</strong> You get to dress up like an absolute joke and no one cares :D</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="panel">
+        <p>Here are some of the projects I've worked on:</p>
+        <ul>
+            <li><strong>Project 1:</strong> CFC beginner project</li>
+            <li><strong>Project 2:</strong> well yeah...its empty</li>
+            <li><strong>Project 3:</strong> To be continued...</li>
+        </ul>
+        <div class="project-details">
+            <h3>Dino Bino</h3>
+            <p>An interactive dinosaur game built using JavaScript, HTML, and CSS. Click <a href="dinosaur-game.html" target="_blank">here</a> to play the game!</p>
+        </div>
+    </div>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="panel">
+        <div class="skills-panel">
+            <div class="skill">
+                <p>Proficient in Javascript</p>
+                <div class="skill-boxes">
+                    <div class="box filled"></div>
+                    <div class="box filled"></div>
+                    <div class="box filled"></div>
+                    <div class="box filled"></div>
+                    <div class="box filled"></div>
+                    <div class="box filled"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <p>Proficient in Python</p>
+                <div class="skill-boxes">
+                    <div class="box filled"></div>
+                    <div class="box filled"></div>
+                    <div class="box filled"></div>
+                    <div class="box filled"></div>
+                    <div class="box filled"></div>
+                    <div class="box filled"></div>
+                    <div class="box filled"></div>
+                    <div class="box filled"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <div class="panel">
+        <p>You can reach me at:</p>
+        <ul>
+            <li><a href="mailto:24091054@student.uwa.edu.au">
+                <i class="fas fa-envelope"></i> Email</a></li>
+            <li><a href="https://www.linkedin.com/in/dragonicleee/">
+                <i class="fab fa-linkedin"></i> LinkedIn</a></li>
+        </ul>
+    </div>
+</section>
+            
+<footer>
+    <p>&copy; 2024 Yan Ling</p>
+</footer>
+
+</body>
+</html>
+                

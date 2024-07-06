@@ -1,0 +1,26 @@
+header {
+    background-color: #f8b305;
+    color: #333;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-family: 'Bungee Spice', cursive; /* Apply Bungee Spice font */
+}
+
+.spin {
+    display: inline-block;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
